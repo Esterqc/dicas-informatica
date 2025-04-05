@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word - Dicas de Informática</title>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="botao">🔙 Voltar para a Página Inicial</a>
+    <h1>Microsoft Word</h1>
+    <p>Dicas para criar documentos profissionais com facilidade!</p>
+  </header>
+
+  <main class="conteudo">
+    <img src="../images/icone word.png" alt="Ícone Word" class="icone-pagina" onclick="clicarImagem(this)">
+
+    <h2>O que é o Word?</h2>
+    <p>O Word é um processador de texto usado para criar documentos, cartas, currículos e até apresentações simples.</p>
+
+    <h2>Principais recursos:</h2>
+    <ul>
+      <li>✅ Formatação de textos e parágrafos</li>
+      <li>✅ Inserção de imagens, tabelas e gráficos</li>
+      <li>✅ Revisão ortográfica e gramatical</li>
+    </ul>
+
+    <h2>Onde aprender mais?</h2>
+    <a href="https://www.youtube.com/watch?v=88MRrNI0u_4&list=PLILYY2fWNjwgMKFGH-HuR362LjH22L-qS" class="botao" target="_blank">📚 Assistir Curso de Word</a>
+  </main>
+
+  <script>
+    function clicarImagem(img) {
+      img.style.filter = "grayscale(100%)";
+      setTimeout(() => img.style.filter = "none", 300);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerPoint - Dicas de Informática</title>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="botao">🔙 Voltar para a Página Inicial</a>
+    <h1>Microsoft PowerPoint</h1>
+    <p>Aprenda a criar apresentações incríveis!</p>
+  </header>
+
+  <main class="conteudo">
+    <img src="../images/icone power.webp" alt="Ícone PowerPoint" class="icone-pagina" onclick="clicarImagem(this)">
+
+    <h2>O que é o PowerPoint?</h2>
+    <p>O PowerPoint é um software usado para criar apresentações visuais, ideal para reuniões, palestras e treinamentos.</p>
+
+    <h2>Principais recursos:</h2>
+    <ul>
+      <li>✅ Modelos prontos para apresentações</li>
+      <li>✅ Animações e transições entre slides</li>
+      <li>✅ Inserção de imagens, vídeos e gráficos</li>
+    </ul>
+
+    <h2>Onde aprender mais?</h2>
+    <a href="https://www.youtube.com/watch?v=78qY_EZGjM4&list=PLhNntNZaA1Vtrx8Q9tV3hH4h61ceg7cNp" class="botao" target="_blank">📚 Assistir Curso de PowerPoint</a>
+  </main>
+
+  <script>
+    function clicarImagem(img) {
+      img.style.filter = "grayscale(100%)";
+      setTimeout(() => img.style.filter = "none", 300);
+    }
+  </script>
+</body>
+</html>
+

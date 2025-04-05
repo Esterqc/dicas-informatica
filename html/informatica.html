@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informática - Dicas de Informática</title>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="botao">🔙 Voltar para a Página Inicial</a>
+    <h1>Informática Básica</h1>
+    <p>Aprenda os conceitos fundamentais para usar o computador!</p>
+  </header>
+
+  <main class="conteudo">
+    <img src="../images/informatica.png" alt="Ícone de Informática" class="icone-pagina" onclick="clicarImagem(this)">
+
+    <h2>O que é Informática?</h2>
+    <p>A informática é a área que estuda o uso de computadores e tecnologia para resolver problemas.</p>
+
+    <h2>Principais tópicos:</h2>
+    <ul>
+      <li>✅ Componentes básicos do computador</li>
+      <li>✅ Navegação na internet e segurança digital</li>
+      <li>✅ Uso do sistema operacional (Windows, Linux, macOS)</li>
+    </ul>
+
+    <h2>Onde aprender mais?</h2>
+    <a href="https://www.youtube.com/watch?v=9fNHAD7ZDL4&list=PL-QAz5R5Rlm7wn20xLTIr84gbS2XkzqEZ" class="botao" target="_blank">📚 Assistir Curso de Informática Básica</a>
+
+  <script>
+    function clicarImagem(img) {
+      img.style.filter = "grayscale(100%)";
+      setTimeout(() => img.style.filter = "none", 300);
+    }
+  </script>
+</body>
+</html>
+
+
